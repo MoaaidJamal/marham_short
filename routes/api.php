@@ -16,4 +16,3 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::post('store', [LinkController::class, 'store']);
-Route::post('show/{code}', [LinkController::class, 'show']);
